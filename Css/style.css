@@ -249,7 +249,7 @@ footer p{text-align: center;}
     
 width: 780px;
 height: 450px;
-z-index: 100;}
+z-index: 1;}
 
 .video-adds{ 
     overflow: hidden;
