@@ -40,7 +40,7 @@ padding-left: var(--padding-primary);}
     color: white;
 
 }
-.hero{ background:  url(../img/backgroundimg.jpg) no-repeat center center /cover;
+.hero{ background:  url(backgroundimg.jpg) no-repeat center center /cover;
 height: 670px;
 display: flex;
 align-items: center;
@@ -249,7 +249,7 @@ footer p{text-align: center;}
     
 width: 780px;
 height: 450px;
-z-index: 1;}
+z-index: 6;}
 
 .video-adds{ 
     overflow: hidden;
