@@ -40,7 +40,7 @@ padding-left: var(--padding-primary);}
     color: white;
 
 }
-.hero{ background:  url(../img/backgroundimg.jpg) no-repeat center center /cover;
+.hero{ background:  url(backgroundimg.jpg) no-repeat center center /cover;
 height: 670px;
 display: flex;
 align-items: center;
@@ -273,13 +273,13 @@ footer p{text-align: center;}
     
 width: 780px;
 height: 450px;
-z-index: 2;}
+z-index: 0;}
 
 .video-adds{ 
     overflow: hidden;
     position: relative;
-    
-
+   
+   
 }
 
 
@@ -287,18 +287,20 @@ z-index: 2;}
 
 .video-overlays{
     position: absolute;
-    background-color: rgb(0, 0, 0/50%);
+    background-color: rgb(0, 0, 0,50%);
     width: 780px;
     height: 450px;
     display: flex;
     align-items: center;
     justify-content: center;
+    z-index: 2;
 
 }
 .video-control-play , .video-control-pause{
     color:var(--color-primary);
     font-size: var(--font-size-section-title);
     cursor:pointer;
+    z-index: 4;
 }
 
 .video-control-pause{
